@@ -1,0 +1,10 @@
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\dependencies\imgui\imgui.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\imgui.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\dependencies\imgui\imgui_demo.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\imgui_demo.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\dependencies\imgui\imgui_draw.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\imgui_draw.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\dependencies\imgui\imgui_impl_glfw.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\imgui_impl_glfw.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\dependencies\imgui\imgui_impl_opengl3.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\imgui_impl_opengl3.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\dependencies\imgui\imgui_tables.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\imgui_tables.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\dependencies\imgui\imgui_widgets.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\imgui_widgets.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\glad.c;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\glad.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\main.obj
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\shader.cpp;C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\x64\Debug\shader.obj

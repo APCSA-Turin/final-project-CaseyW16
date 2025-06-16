@@ -1,0 +1,4 @@
+C:/Users/Casey/Documents/Wikipedia-Map/WikipediaMap/WikipediaMap/out/build/x64-Debug/CMakeFiles/wikipedia_map.dir
+C:/Users/Casey/Documents/Wikipedia-Map/WikipediaMap/WikipediaMap/out/build/x64-Debug/CMakeFiles/TestImGui.dir
+C:/Users/Casey/Documents/Wikipedia-Map/WikipediaMap/WikipediaMap/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Casey/Documents/Wikipedia-Map/WikipediaMap/WikipediaMap/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

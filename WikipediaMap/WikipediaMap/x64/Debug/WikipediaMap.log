@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(294,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(463,24): warning C4244: 'initializing': conversion from '_Rep' to 'int', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(463,24): warning C4244:         with
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(463,24): warning C4244:         [
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(463,24): warning C4244:             _Rep=__int64
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(463,24): warning C4244:         ]
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(464,25): warning C4244: 'initializing': conversion from '_Rep' to 'int', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(464,25): warning C4244:         with
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(464,25): warning C4244:         [
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(464,25): warning C4244:             _Rep=__int64
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(464,25): warning C4244:         ]
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(466,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(517,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(529,18): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(529,18): warning C4244:         with
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(529,18): warning C4244:         [
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(529,18): warning C4244:             _Ty=float
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(529,18): warning C4244:         ]
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(530,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(554,34): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(722,56): warning C4267: '=': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\WikipediaMap\source\main.cpp(799,56): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  shader.cpp
+  Generating Code...
+  WikipediaMap.vcxproj -> C:\Users\Casey\Documents\Wikipedia-Map\WikipediaMap\x64\Debug\WikipediaMap.exe

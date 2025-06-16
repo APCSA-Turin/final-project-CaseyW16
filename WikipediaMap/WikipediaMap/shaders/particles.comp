@@ -1,0 +1,64 @@
+#version 430
+
+layout (local_size_x = 64) in;
+
+layout(std430, binding=0) buffer Pos {
+    vec2 Position [];
+};
+
+layout(std430, binding=1) buffer LinkPos {
+    vec2 LinkTranslations [];
+};
+
+layout(std430, binding=2) buffer Link {
+    vec2 Links [];
+};
+
+const float GRAVITY = 0.008f;
+const float REPULSION = 0.0001f;
+const float ATTRACTION = 0.003f;
+
+// Simulation rules are based on repulsion, attraction and gravity
+void main() {
+    uint idx = gl_GlobalInvocationID.x;
+    vec2 p = Position[idx].xy;
+
+    // Gravity
+    vec2 g = -Position[idx].xy * GRAVITY;
+
+    // Attraction
+    for (int i = 0; i < Links.length(); i++) {
+        if (Links[i].x == Links[i].y) continue;
+        if (int(Links[i].x) == idx) {
+            int otherIdx = int(Links[i].y);
+            vec2 otherPos = Position[otherIdx].xy;
+            vec2 direction = otherPos - p;
+            float dist = length(direction);
+            g += ATTRACTION * direction;
+            LinkTranslations[i * 2] = p;
+        } else if (int(Links[i].y) == idx) {
+            int otherIdx = int(Links[i].x);
+            vec2 otherPos = Position[otherIdx].xy;
+            vec2 direction = otherPos - p;
+            float dist = length(direction);
+            g += ATTRACTION * direction;
+            LinkTranslations[i * 2 + 1] = p;
+        }
+    }
+
+    // Repulsion
+    for (int i = 0; i < Position.length(); i++) {
+        if (idx == i) continue;
+
+        vec2 otherPos = Position[i].xy;
+        vec2 direction = otherPos - p;
+        float dist = length(direction);
+        if (dist > 0.001f) {
+            g -= REPULSION * normalize(direction / (dist * dist));
+        }
+    }
+
+    p += g;
+    Position[idx].xy = p;
+
+}
